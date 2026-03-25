@@ -12,3 +12,5 @@ __pycache__/
 
 # jupyter
 .ipynb_checkpoints/
+
+teste_data.csv
