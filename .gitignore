@@ -1,0 +1,14 @@
+# arquivos grandes
+*.csv
+*.parquet
+
+# ambiente
+venv/
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
