@@ -1,10 +1,11 @@
 import xarray as xr
+import cfgrib
 import pandas as pd
 import os
 
-grib_file_path = r'C:\Users\gabriel.pereira\estagio-fogareu\9208fef7d40176813a94323f770c0b4f\data.grib'
+grib_file_path = r'C:\Users\gabriel.pereira\estagio-fogareu\all\1bf29a0a57e1c65073a4a24c65c45c99\data.grib'
 
-dado_csv = 'teste_data.csv'
+dado_csv = r'C:\Users\gabriel.pereira\estagio-fogareu\unknown-data\teste_data.csv'
 
 
 if not os.path.exists(grib_file_path):
